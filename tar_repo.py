@@ -2,7 +2,7 @@ import os
 
 def clone_repository(ma_list):
     i = 0;
-    user = input("entre le propriétaire des répertoires\n")
+    user = input("entrez le propriétaire des répertoires\n")
     while (ma_list[i]):
         clone = "git clone git@git.epitech.eu:/" + user + "/"
         clone = clone + ma_list[i]
